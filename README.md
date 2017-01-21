@@ -10,7 +10,7 @@ Symfony Doctrine bundle's top-level configuration schema.
 
 
 ## Example (Symfony - config.yml)
-
+```
 doctrine:
     dbal:
       driver_class: Shorock\Doctrine\FlexPDOPgSql\Driver
@@ -19,4 +19,4 @@ doctrine:
         service: libdb
 	# or
 	# dsn: "pgsql:dbname=libdb.you.edu sslcert=/etc/pki/alternate.crt sslkey=/etc/pki/alternate.key"
-
+```
