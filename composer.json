@@ -1,0 +1,19 @@
+{
+    "name": "shorock/flex-doctrine-pg",
+    "description": "Open minded PostGres connection driver for Doctrine DBAL",
+    "type": "library",
+    "autoload": {
+        "psr4": {
+            "Shorock\\Doctrine": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tom Shorock",
+            "email": "thomas@shorock.com"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^2.0.0"
+    }
+}
