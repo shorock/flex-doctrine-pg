@@ -13,6 +13,7 @@
             "email": "thomas@shorock.com"
         }
     ],
+    "license": "MIT",
     "require": {
         "doctrine/dbal": "^2.0.0"
     }
