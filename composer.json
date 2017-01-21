@@ -3,7 +3,7 @@
     "description": "Open minded PostGres connection driver for Doctrine DBAL",
     "type": "library",
     "autoload": {
-        "psr4": {
+        "psr-4": {
             "Shorock\\Doctrine": "src/"
         }
     },
